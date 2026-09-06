@@ -1,0 +1,528 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a{
+    text-decoration: none;
+}
+
+h1,h2,h3,h4{
+    font-family: "Titan One", sans-serif;
+   
+}
+header {
+    background-color: #E6355F;
+    display: flex;
+    padding: 10px;
+    gap: 1.25rem;
+    justify-content: space-around;
+}
+
+header h1{
+    color:white;
+    font-size: 1.125rem;
+}
+.call-the-window{   
+    padding: 4px 16px 4px 16px;
+    color: white;
+    font-size: 0.9375rem;
+    border-radius: 8px;
+    text-align: center;
+    background-color: #FFD23E;
+    font-weight: bold;
+}
+
+nav ul{
+    display: flex;
+     gap: 15px;
+}
+
+li {
+    list-style: none;  
+}
+li a {
+   font-family: "Nunito", sans-serif;
+    text-decoration: none;
+    padding: 10px;
+    border-radius: 5px;
+    color: white;
+    text-decoration: none;
+}
+.opening {
+    padding: 15px;
+    text-align: center;
+    background-color: #FFD23E;
+}
+
+.opening span {
+    color: black;
+    font-weight: bold;
+    font-size: 1.125rem;
+}
+
+
+.heroSection{
+    position: relative
+}
+
+.heroSection::before{
+    content: "";
+    position: absolute;
+     background-color: rgba(89, 26, 47,0.5);
+    top: 0%;
+    left: 0%;
+   width: 100%;
+    height: 100%;
+    z-index: 1;
+}
+
+.about{
+    position: absolute;
+     left: 5%;
+    top: 20%;
+    z-index: 2 ; 
+}
+
+img{
+    width: 100%;
+    height: 550px;
+    object-fit: cover;
+}
+
+.about > h1{
+color: white;
+font-size: 	3.4375rem;
+  max-width: 45%;
+
+}
+
+.about > p {
+    margin-top: 10px;
+    margin-bottom: 15px;
+    color:white;
+    font-size: 	1.25rem;
+    font-family: "Nunito", sans-serif;
+     line-height:	1.875rem;
+      max-width: 45%;
+}
+.about>span{
+    color:#FFD23E
+}
+.buttons {
+    display: flex;
+    text-decoration: none;
+    list-style: none;
+    gap: 10px;
+}
+
+.btn {
+    padding: 20px;
+    border-radius: 15px;
+    color: white;
+    margin-bottom: 10px;
+}
+
+.buttons a{
+font-weight: bold;
+ font-size: 0.9375rem;
+}
+#flavor{
+background-color: #FFD23E;
+color: black;
+}
+
+#stand{
+border: 2px solid white;
+}
+
+.main-menu{
+padding: 100px 120px 40px 120px;
+background-color: #FFF8EF;
+}
+
+.describe-menu span {
+    margin-bottom: 10px;
+    color: #E3582E;
+}
+.describe-menu h2{
+    font-size: 	1.875rem;
+    margin-bottom: 10px;
+     color: #4A3644;
+} 
+
+.describe-menu p{
+    font-size: 1.25rem;
+}
+
+.wild-card{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 20px;
+} 
+
+
+.box{
+    margin-top: 20px;
+    width: 350px;
+    padding: 20px;
+    border-radius: 8px;
+    box-sizing: border-box;
+    background-color: white;
+}
+
+.box h3{
+   color: #4A3746;
+}
+
+.box p{
+      line-height: 22px;
+}
+
+#cherry{
+    border-top:5px solid #F18CA4;
+}
+
+#lemon{
+      border-top:5px solid #FFE591;  
+}
+
+#raspberry{
+      border-top:5px solid #8FCDED;  
+}
+
+#mango{
+      border-top:5px solid #FEB067;  
+}
+
+#lemon{
+      border-top:5px solid #FFE591;  
+}
+
+.weeks-special{
+    margin-top: 50px;
+    text-align: center;
+    font-size: 	1.125rem;
+}
+
+.peanut-better{
+    background-color: #FFD23E;
+    padding: 5px;
+     border-radius: 5px;
+     font-weight: bold;
+}
+
+.size-container{
+    padding: 80px 120px 80px 120px;
+    background-color: #BFE4F5;
+}
+.size-container > span , .stand-container span{
+color: #E1567A;
+font-size: 	1.125rem;
+margin-bottom:10px ;
+
+}
+
+.sizes-card{
+    display: flex;
+    gap: 30px ;
+   
+}
+.price{
+    color: #E1567A;
+    font-weight: 700;
+    font-size: 	1.375rem;
+}
+.cup-card{
+    margin-top: 20px;
+    width: 150px;
+    padding: 15px;
+    border-radius: 8px;
+    box-sizing: border-box;
+    background-color: white; 
+}
+
+.items-col{
+    gap: 10px;
+ display: flex;
+ text-align: center;
+flex-direction: column;
+}
+
+.order-one{
+    text-align: center;
+    margin-top: 30px;
+    color: #777474;
+    font-weight: 500;
+    line-height: 1.25rem;
+}
+
+.stand-container{
+    padding: 80px 120px 80px 120px;
+    background-color: #FFF8EF;
+}
+.stand-container h2{
+    margin-bottom: 20px;
+}
+
+.stand-alignment{
+    display: flex;
+    gap: 20px;
+}
+.follow-card{
+    padding: 20px;
+width:350px;
+box-sizing: border-box;
+border-radius: 15px;
+background-color: white;
+}
+
+.phone-direct-item{
+    display: flex;
+    flex-direction: column;
+    color: #D8768C;
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+
+.phone-direct-item > a {
+    color: #D8768C;
+}
+span.cash-only{
+    font-size: 1rem;
+    padding: 5px;
+    border-radius: 6px;
+    background-color:#FFD23E ;
+    font-weight: bold;
+    color: blaCK;
+}
+.follow-card h3{
+    color:#D8768C;
+    margin-bottom: 10px;
+
+}
+.follow-card p{
+  line-height: 1.5rem
+}
+
+footer{
+    padding: 20px;
+    background-color: #392434;
+}
+footer h4{
+    color: white;
+    font-size: 1.375rem;
+    margin-bottom: 4px;
+}
+.foot-items{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+
+.copyright{
+    display: flex;
+    justify-content: space-between;
+}
+.copyright a {
+    color: white;
+text-decoration: underline;
+}
+footer span , footer p {
+   line-height: 1.4375rem;
+    font-size: 14px;
+    color: #99bacb
+}
+
+hr{
+    margin: 40px 0 40px 0;
+}
+
+
+
+/* Responsive Design */
+
+@media (max-width:680px) {
+    header{
+        
+        flex-direction: column;
+     align-items: center;
+     justify-content: center;
+    }
+
+    header h1{
+    color:white;
+    font-size: 1rem;
+}
+
+nav ul{
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+li a{
+   font-size: 0.8rem; 
+   padding: 6px;
+}
+
+ .call-the-window{ 
+    font-size: 0.8rem;  
+    padding: 6px;
+} 
+.opening {
+    padding: 10px;
+}
+.opening span{
+     font-size: 0.875rem;
+}
+
+} 
+
+
+
+@media (max-width:1000px) {
+    /* Vertical and horizontally  */
+/* .about{
+    position: absolute;
+     left: 50%;
+     top: 50%;
+    z-index: 2 ; 
+    transform: translateX(-50%);
+    transform: translateY(-50%);
+} */
+
+img{
+    max-height: 400px;
+}
+
+.about > h1{
+font-size: 	1.25rem;
+ max-width: 90%;
+}
+.about > p {
+    font-size: 	0.875rem;
+    max-width: 90%;
+}
+
+.btn {
+    padding: 10px;
+    border-radius: 8px;
+    color: white;
+    margin-bottom: 10px;
+}
+
+.buttons a{
+    font-size: 0.875rem; 
+}
+}
+
+
+@media (max-width:936px){
+
+    footer{
+        padding-left: 20px;
+         margin-top: 0;
+    }
+    .foot-items{
+    flex-direction: column;
+     gap: 10px;
+    }
+
+     footer h4{
+        font-size:1.2rem ;
+     }
+}
+
+@media(max-width:959px){
+    .main-menu{
+    padding: 50px 120px 20px 120px;
+    }
+    .describe-menu{
+        text-align: center;
+    }
+
+.describe-menu h2{
+    font-size: 	1.5rem;
+} 
+
+.describe-menu p{
+    font-size: 1rem;
+    line-height: 1.375rem;
+}
+
+.wild-card{
+  justify-content: center;
+    align-items: center;
+} 
+
+.weeks-special{
+    font-size: 	1rem;
+    line-height: 1.5rem;
+}
+
+.peanut-better{
+     padding: 0;
+}
+}
+
+
+@media (max-width:677px) {
+    .sizes-card{
+      flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .size-container {
+        padding: 40px 0 40px 0;
+    }
+    .size-container span , .size-container > h2{
+        text-align: center;
+    }
+    .size-container span {
+        display: block;
+        text-align: center;
+    }
+
+     .size-container h2{
+        font-size: 	1.2rem;
+     }
+}
+
+@media (max-width:844px){
+    .stand-alignment{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+   .stand-container  h2{
+    text-align: center;
+   }
+
+   .stand-container > span {
+    display: block;
+    text-align: center;
+   }
+   
+    .stand-container{
+    padding: 30px 120px 80px 120px;
+      
+}
+
+    .stand-container h2{
+        font-size: 	1.2rem;
+     }
+}
+
+@media (max-width:418px){
+    .copyright{
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap:10px
+    }
+}
