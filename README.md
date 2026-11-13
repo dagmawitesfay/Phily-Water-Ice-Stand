@@ -83,10 +83,4 @@ The page uses a warm, playful brand aesthetic designed to feel like a summer nei
 - Clean card layouts for product and info sections
 - Bold contrast between background colors and highlight text
 
-## License
 
-This project does not include an explicit license. All rights are reserved by the project owner unless otherwise stated.
-
-## Author
-
-Built for the Philly Water Ice brand concept with a responsive front-end design and handcrafted content.
