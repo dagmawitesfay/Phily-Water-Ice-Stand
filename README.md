@@ -2,7 +2,7 @@
 
 A fully responsive landing page for a fictional Philadelphia water ice stand, styled around a bright, nostalgic summer brand identity. The project combines rich typography, bold color sections, and a classic South Philly storefront aesthetic.
 
-## Deployed Link -> phily-water-ice-stand.vercel.app
+## Deployed Link -> [phily-water-ice-stand.vercel.app](https://phily-water-ice-stand.vercel.app/)
 
 ## Overview
 
